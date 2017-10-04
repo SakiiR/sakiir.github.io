@@ -1,0 +1,13 @@
+<footer>
+<hr/>
+  <div class="left">
+    &copy;{{ site.time | date:"%Y" }}.
+    Built By SakiiR - A Random CTF Player
+  </div>
+
+  <div class="right">
+    {% unless site.twitter == "" %}
+      <img style="width: 25px;height:auto;" class="circular" src="{{ "/public/images/logo.png" | prepend:site.baseurl }}"
+    {% endunless %}
+  </div>
+</footer>
